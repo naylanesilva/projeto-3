@@ -1,0 +1,18 @@
+header{
+    background-color: brown;/*cor de fundo*/
+  max-width: 1000px;/* largura maxima-responsivo*/
+  height: 300px;
+  margin:auto ; /* centraliza */
+}
+div#capa{ 
+    background-color: beige;/* cor de fundo */
+    width: 100%;/*faz uma div ocupar 100% da largura da header*/
+    height: 300px ;/* altura*/
+    
+    background-image:url('capa\ 2.jpg') ; /*coloca a imagem de fundo na div*/
+    background-size: cover; /*ajusta o tamanho da imagem*/
+    background-repeat: no-repeat;/* nao repetir a imagem*/
+    background-position: center;
+    color: rgb(255, 255, 255);
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  /*muda a fonte */
+} 
