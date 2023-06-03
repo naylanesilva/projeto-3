@@ -1,8 +1,9 @@
-header{
-    background-color: brown;/*cor de fundo*/
+header,main,footer{
+   background-color: rgba(90, 87, 92, 0.473);
   max-width: 1000px;/* largura maxima-responsivo*/
-  height: 300px;
+  
   margin:auto ; /* centraliza */
+
 }
 div#capa{ 
     background-color: beige;/* cor de fundo */
