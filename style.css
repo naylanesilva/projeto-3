@@ -1,3 +1,4 @@
+body{ background-color: rgb(162, 129, 194);}
 header,main,footer{
    background-color: rgba(237, 210, 255, 0.473);
   max-width: 1000px;/* largura maxima-responsivo*/
@@ -67,5 +68,8 @@ width: 200px;
 div.div{
   display: flex;
   margin: 4px;
-  
+ }
+
+ div.div>p{ 
+  margin-left: 20px;
  }
