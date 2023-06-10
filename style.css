@@ -1,9 +1,9 @@
 header,main,footer{
-   background-color: rgba(90, 87, 92, 0.473);
+   background-color: rgba(237, 210, 255, 0.473);
   max-width: 1000px;/* largura maxima-responsivo*/
-  
+   
   margin:auto ; /* centraliza */
-
+color: rgb(107, 88, 126);
 }
 div#capa{ 
     background-color: beige;/* cor de fundo */
@@ -49,3 +49,19 @@ img.sociais{
 img.sociais:hover{
 filter: invert(1) opacity(1);
 }
+footer{
+background-color: rgb(165, 149, 182);
+height: 60px;
+color: rgb(75, 52, 97);
+display: flex; /*torna os elementos flexiveis*/
+
+justify-content: center; /*centro horizontal*/
+align-items: center; /*centro vertical*/
+
+} 
+
+img.foto{
+
+width: 200px;
+}
+div#textinho{ }
