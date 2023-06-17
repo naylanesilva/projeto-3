@@ -1,17 +1,17 @@
-body{ background-color: rgb(162, 129, 194);}
+body{ background-color: rgb(0, 0, 0);}
 header,main,footer{
-   background-color: rgba(237, 210, 255, 0.473);
+   background-color: rgba(49, 49, 49, 0.39);
   max-width: 1000px;/* largura maxima-responsivo*/
    
   margin:auto ; /* centraliza */
-color: rgb(107, 88, 126);
+color: rgb(255, 255, 255);
 }
 div#capa{ 
     background-color: beige;/* cor de fundo */
     width: 100%;/*faz uma div ocupar 100% da largura da header*/
     height: 300px ;/* altura*/
     
-    background-image:url('capa\ 2.jpg') ; /*coloca a imagem de fundo na div*/
+    background-image:url('Get\ the\ We\ Heart\ It\ app!.png') ; /*coloca a imagem de fundo na div*/
     background-size: cover; /*ajusta o tamanho da imagem*/
     background-repeat: no-repeat;/* nao repetir a imagem*/
     background-position: center;
@@ -26,7 +26,7 @@ div#capa{
 #capa>p{
   position: absolute;
   top: 170px;
-  color: rgb(170, 162, 218);
+  color: rgb(255, 255, 255);
 }
 #capa>h1{ 
  text-shadow: 3px 3px 3px black; 
@@ -51,9 +51,9 @@ img.sociais:hover{
 filter: invert(1) opacity(1);
 }
 footer{
-background-color: rgb(165, 149, 182);
+background-color: rgb(43, 39, 39);
 height: 60px;
-color: rgb(75, 52, 97);
+color: rgb(160, 160, 160);
 display: flex; /*torna os elementos flexiveis*/
 
 justify-content: center; /*centro horizontal*/
