@@ -64,6 +64,11 @@ align-items: center; /*centro vertical*/
 img.foto{
 
 width: 200px;
+margin:10px;
+
+} img.foto2{
+width: 50px;
+
 }
 div.div{
   display: flex;
